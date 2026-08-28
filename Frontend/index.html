@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>BioAtlas AI</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ================= HEADER ================= -->
+    <header class="navbar">
+      <div class="nav-container">
+        <!-- Logo -->
+        <a href="index.html" class="brand">
+          <img src="Images/logo.png" alt="BioAtlas AI" />
+          <div class="brand-text">
+            <span class="brand-name">BioAtlas AI</span>
+            <span class="brand-subtitle"> Plant Sciences & Palynology </span>
+          </div>
+        </a>
+
+        <!-- Navigation -->
+        <nav class="nav-links">
+          <a href="#" class="active">Home</a>
+          <a href="#">Atlas <span>⌄</span></a>
+          <a href="#">AI Identification</a>
+          <a href="#">Collections</a>
+          <a href="#">Maps</a>
+          <a href="#">Publications</a>
+          <a href="#">Community <span>⌄</span></a>
+          <a href="#">About</a>
+        </nav>
+
+        <!-- Right side -->
+        <div class="nav-actions">
+          <button class="icon-button" aria-label="Search">⌕</button>
+
+          <button class="icon-button" aria-label="Theme">☼</button>
+
+          <button class="login-button">Log in</button>
+
+          <button class="register-button">Register</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <main>
+      <section class="hero">
+        <div class="hero-container">
+          <!-- Left -->
+          <div class="hero-content">
+            <h1>
+              Explore.<br />
+              <span>Identify.</span><br />
+              Understand.
+            </h1>
+
+            <p class="hero-description">
+              AI-powered platform for plant sciences, palynology & biodiversity
+              research.
+            </p>
+
+            <!-- Search preview -->
+            <div class="hero-search">
+              <div class="search-icon">⌕</div>
+
+              <input
+                type="text"
+                placeholder="Search species, family, pollen type, publication..."
+              />
+
+              <select>
+                <option>All</option>
+                <option>Species</option>
+                <option>Genus</option>
+                <option>Family</option>
+                <option>Pollen</option>
+                <option>Publications</option>
+              </select>
+
+              <button class="search-button">⌕</button>
+            </div>
+
+            <!-- Image identification -->
+            <div class="identify-box">
+              <div class="upload-info">
+                <div class="upload-icon">✧</div>
+
+                <div>
+                  <strong> Identify a plant or pollen </strong>
+
+                  <span> Upload an image to identify it with AI </span>
+                </div>
+              </div>
+
+              <button class="identify-button">
+                Identify with AI
+                <span>→</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Right visual -->
+          <div class="hero-visual">
+            <img src="Images/hero-pollen.jpg" alt="Pollen and plant" />
+
+            <div class="visual-overlay"></div>
+          </div>
+        </div>
+
+        <!-- AI Identification + Main Features -->
+<section class="ai-tools-section">
+
+    <!-- AI Identification Process -->
+    <div class="ai-identification-bar">
+
+        <div class="ai-intro">
+            <h3>Try AI Identification</h3>
+            <p>Upload a pollen image and let our AI identify it in seconds.</p>
+            <button class="primary-btn">Try Now <span>→</span></button>
+        </div>
+
+        <div class="ai-process">
+
+            <!-- Step 1 -->
+            <div class="process-step">
+                <div class="process-image pollen-placeholder">
+                    🌼
+                </div>
+                <span>Upload Image</span>
+            </div>
+
+            <div class="process-arrow">→</div>
+
+            <!-- Step 2 -->
+            <div class="process-step">
+                <div class="process-image analyzing">
+                    <span class="dots">• • •</span>
+                </div>
+                <span>Analyzing...</span>
+            </div>
+
+            <div class="process-arrow">→</div>
+
+            <!-- Step 3 -->
+            <div class="process-result">
+                <div class="result-image">
+                    🌼
+                </div>
+
+                <div class="result-info">
+                    <strong>Olea europaea L.</strong>
+                    <span>Family: Oleaceae</span>
+                    <span>Confidence: <b>96%</b></span>
+
+                    <div class="confidence-bar">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="process-arrow">→</div>
+
+            <!-- Step 4 -->
+            <div class="view-results">
+                <div class="result-icon">🌿</div>
+                <span>View Results</span>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Main Feature Cards -->
+    <div class="feature-grid">
+
+        <!-- Plant Atlas -->
+        <div class="feature-card plant-card">
+            <div class="feature-icon">🌿</div>
+
+            <h3>Plant Atlas</h3>
+
+            <p>
+                Explore a comprehensive atlas of plant species,
+                taxonomy, and distributions.
+            </p>
+
+            <a href="#">
+                Explore Atlas <span>→</span>
+            </a>
+        </div>
+
+
+        <!-- Pollen Atlas -->
+        <div class="feature-card pollen-card">
+            <div class="feature-icon">◉</div>
+
+            <h3>Pollen Atlas</h3>
+
+            <p>
+                Browse pollen types, morphology,
+                and microscopic images.
+            </p>
+
+            <a href="#">
+                Explore Pollen <span>→</span>
+            </a>
+        </div>
+
+
+        <!-- AI Identification -->
+        <div class="feature-card ai-card">
+            <div class="feature-icon">✣</div>
+
+            <h3>AI Identification</h3>
+
+            <p>
+                Identify pollen and plants using
+                our state-of-the-art AI models.
+            </p>
+
+            <a href="#">
+                Identify Now <span>→</span>
+            </a>
+        </div>
+
+
+        <!-- Publications -->
+        <div class="feature-card publication-card">
+            <div class="feature-icon">▤</div>
+
+            <h3>Publications</h3>
+
+            <p>
+                Access scientific papers, reports,
+                and technical documents.
+            </p>
+
+            <a href="#">
+                View Publications <span>→</span>
+        </a>
+        </div>
+
+    </div>
+
+</section>
+
+</html>
